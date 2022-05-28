@@ -1,0 +1,125 @@
+.root {
+    height: 100%;
+    width: 92%;
+
+
+}
+
+.welcome {
+
+    padding: 3vmin;
+    margin: 0px;
+    margin-top: 4vmin;
+    padding-left: 4vmin;
+  
+    background-color: #FEFFFE;
+    
+
+    border-style: solid;
+    border-color: #eeeeee;
+    border-width: 0px;
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+
+}
+
+.welcomeinfo {
+    font-size: var(--h3);
+    margin: 0px;
+    padding: 0px;
+
+    padding-left: 4vmin;
+    padding-right: 4vmin;
+    padding-bottom: 4vmin;
+    padding-bottom: 4vmin;
+    padding-top: 2vmin;
+    
+  
+    background-color: #FEFFFE;
+    
+
+    border-style: solid;
+    border-color: #eeeeee;
+    border-width: 0px;
+    
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+
+}
+
+.welt1 {
+    font-size: var(--h1);
+    margin: 0px;
+    padding: 0px;
+}
+
+.welt2 {
+    margin: 0px;
+    padding: 0px;
+    color: #8B888D;
+}
+
+
+
+.DayInfoData {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    opacity: 100%;
+}
+
+.totalamount {
+    font-style: normal;
+    font-weight: bolder;
+    font-size: var(--h4);
+    margin: 0px;
+    padding: 1vmin;
+
+    flex-grow: 1;
+}
+
+.gear {
+    font-style: normal;
+    font-weight: bolder;
+    font-size: var(--h4);
+    margin: 0px;
+    padding: 1vmin;
+
+    padding-right: 4vmin;
+}
+
+.Elements {
+    margin-top: 4vmin;
+  
+}
+
+.show { 
+    position: fixed;
+ 
+    margin: 0px;
+    padding: 0px;
+    pointer-events: all;
+    opacity: 100%;
+}
+
+.hide { 
+    position: fixed;
+   
+    margin: 0px;
+    padding: 0px;
+    pointer-events: none;
+    opacity: 0%;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: stretch;
+
+}

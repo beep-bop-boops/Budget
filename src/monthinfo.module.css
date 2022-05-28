@@ -1,0 +1,157 @@
+.root {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 92%;
+    
+    position: fixed;
+    background-color: #F2F2F6;
+    overflow: scroll;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    
+    padding: 3vmin;
+    padding-left: 4vmin;
+    display: flex;
+    flex-direction: row;
+    background-color: #FEFFFE;
+    
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+
+    border-style: solid;
+    border-color: #eeeeee;
+    border-width: 0px;
+    border-bottom-width: 1.3px;
+   
+}
+
+.headerL {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    padding: 0px;
+    margin: 0px;
+}
+
+.text1 {
+    font-size: var(--h1);
+    padding: 0px;
+    margin: 0px;
+    color: #007aff;
+}
+
+.headerR {
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+    margin: 0px;
+}
+
+.percentage {
+    background-color: transparent;
+    font-style: normal;
+    font-weight: normal;
+
+    padding: 0px;
+    margin: 0px;
+  
+    font-size: var(--h1);
+    outline: none;
+    border: 0px;
+    width: 11vmin;
+    height: 11vmin;
+    margin: 0px;
+    padding: 0px;
+}
+
+.percentage::placeholder { 
+    color: rgba(0, 0, 0, 0.24);
+  }
+
+
+
+
+
+.subtextcont {
+     
+    padding: 3vmin;
+    padding-left: 4vmin;
+  
+    background-color: #FEFFFE;
+
+    
+    border-style: solid;
+    border-color: #eeeeee;
+    border-width: 0px;
+    border-bottom-width: 1.3px;
+
+}
+
+.subtext {
+    padding: 0px;
+    margin: 0px;
+    color: #8B888D;
+    font-size: var(--h3);
+}
+
+.save {
+    padding: 0px;
+    padding-top: 5.8vmin;
+    padding-right: 1vmin;
+    margin: 0px;
+    color: #8B888D;
+    font-size: var(--h3);
+}
+
+.text2{
+    font-size: var(--h1);
+    padding: 0px;
+    margin: 0px;
+  
+
+}
+
+.addexpense {
+    padding-left: 4vmin;
+ 
+
+    display: flex;
+    flex-direction: row;
+    background-color: #FEFFFE;
+    
+    border-style: solid;
+    border-color: #eeeeee;
+    border-width: 0px;
+    border-bottom-width: 1.3px;
+
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    
+}
+
+
+
+
+
+
+
+
+.backbutton {
+    margin: 0px;
+    margin-top: 2vmin;
+    margin-bottom: 2vmin;
+   
+    font-size: 90px;
+    font-size: var(--h1);
+    font-weight: 100;
+    color: #C6C4C7;
+
+    text-align: left;
+    cursor: pointer;
+
+
+}

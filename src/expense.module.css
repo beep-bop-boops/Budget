@@ -1,0 +1,55 @@
+.root {
+    background-color: #FEFFFE;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    justify-content: stretch;
+    padding: 4vmin;
+
+    border-style: solid;
+    border-color: #eeeeee;
+    border-width: 0px;
+    border-bottom-width: 1.3px;
+}
+
+.root:hover{
+
+    background-color: #E7E6EC;
+}
+
+.root:active{
+    background-color: #d9d7df;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+}
+
+.amount {
+    margin: 0px;
+    padding: 0px;
+    font-size: var(--h2);
+  
+}
+
+.destext { 
+    margin: 0px;
+    padding: 0px;
+    font-size: var(--h2);
+    
+}
+
+.button {
+    font-size: var(--h2);
+    margin: 0px;
+    padding: 0px;
+    transform:  rotate(45deg);
+    background-color: transparent;
+    border: 0px;
+    cursor: pointer;
+    
+
+    color: #C6C4C7;
+}

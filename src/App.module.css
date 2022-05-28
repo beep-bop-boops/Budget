@@ -1,0 +1,16 @@
+@font-face {
+   font-family: "Sf";
+   src: local("Sf"),
+    url("SFReg.OTF") format("truetype");
+   font-weight: bold;
+   }
+
+.App {
+   font-family: Inter;
+   background-color: #F2F2F6;
+   color: black;
+   font-family: "Sf";
+   display: flex;
+   justify-content: center;
+
+}

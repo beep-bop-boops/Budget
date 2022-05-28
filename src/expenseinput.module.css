@@ -1,0 +1,103 @@
+.root {
+    display: flex;
+    flex-direction: row;
+  
+    height: 100%;
+    width: 100%;
+    flex-wrap: nowrap;
+    
+    
+    
+
+}
+
+.pound {
+ 
+    padding-top: 3vmin;
+    padding-bottom: 3vmin;
+    font-size: var(--h2);
+    margin: 0px;
+   
+    justify-content: center;
+    align-self: center;
+}
+
+.inputm {
+    flex: 1;
+    font-size: var(--h2);
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    margin: 0;
+    outline: none;
+    width: 14vmin;
+}
+
+.inputm::placeholder { /* Internet Explorer 10-11 */
+    color: rgba(0, 0, 0, 0.24);
+  }
+
+.inputdes {
+    flex: 4;
+    font-size: var(--h2);
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    margin: 0;
+    outline: none;
+    width: 14vmin;
+
+    text-align: center;
+}
+
+.inputdes::placeholder { 
+    color: rgba(0, 0, 0, 0.24);
+  }
+
+.button {
+    flex: 1;
+    font-size: var(--h2);
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    border: 0px;
+    background-color: #FEFFFE;
+}
+
+.buttonadd {
+    flex: 1.4;
+    font-size: var(--h2);
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+    border: 0px;
+    background-color: #FEFFFE;
+    border-style: solid;
+    border-color: #eeeeee;
+    border-width: 0px;
+    border-left-width: 1.3px;
+    border-bottom-right-radius: 10px;
+}
+
+.buttonadd:hover {
+    background-color: #E7E6EC;
+}
+
+.buttonadd:active{
+    background-color: #d9d7df;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type=number] {
+    -moz-appearance:textfield; /* Firefox */
+}
+input::placeholder { 
+    color: rgba(255, 255, 255, 0.37);
+    opacity: 1; 
+  }
