@@ -8,7 +8,7 @@ import { GR } from "./GoldenRation";
 
 
 const Daylist = () => {
-
+//
     //Day list info
     const [inData, setinData] = useState([]) 
     //Month list info
